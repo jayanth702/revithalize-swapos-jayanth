@@ -1,0 +1,80 @@
+export const restockData = [
+  {
+    stationId: 1,
+    station: "Station 01",
+    location: "Warangal Central",
+    chargedSlots: 5,
+    dailyAverageSwaps: 47,
+    projectedDemand: 52,
+    availableBatteries: 5,
+    recommendedBatteries: 2,
+    priority: "LOW",
+    trend: "STABLE",
+  },
+
+  {
+    stationId: 2,
+    station: "Station 02",
+    location: "Kazipet",
+    chargedSlots: 1,
+    dailyAverageSwaps: 34,
+    projectedDemand: 43,
+    availableBatteries: 1,
+    recommendedBatteries: 5,
+    priority: "CRITICAL",
+    trend: "HIGH",
+  },
+
+  {
+    stationId: 3,
+    station: "Station 03",
+    location: "Hanamkonda",
+    chargedSlots: 5,
+    dailyAverageSwaps: 48,
+    projectedDemand: 54,
+    availableBatteries: 5,
+    recommendedBatteries: 2,
+    priority: "MEDIUM",
+    trend: "RISING",
+  },
+
+  {
+    stationId: 4,
+    station: "Station 04",
+    location: "NIT Warangal",
+    chargedSlots: 3,
+    dailyAverageSwaps: 31,
+    projectedDemand: 38,
+    availableBatteries: 3,
+    recommendedBatteries: 3,
+    priority: "HIGH",
+    trend: "RISING",
+  },
+
+  {
+    stationId: 5,
+    station: "Station 05",
+    location: "Subedari",
+    chargedSlots: 3,
+    dailyAverageSwaps: 32,
+    projectedDemand: 41,
+    availableBatteries: 3,
+    recommendedBatteries: 3,
+    priority: "HIGH",
+    trend: "HIGH",
+  },
+];
+
+
+export const historicalDemand = [
+  { day: "Day 1", swaps: 142 },
+  { day: "Day 10", swaps: 151 },
+  { day: "Day 20", swaps: 158 },
+  { day: "Day 30", swaps: 164 },
+  { day: "Day 40", swaps: 171 },
+  { day: "Day 50", swaps: 179 },
+  { day: "Day 60", swaps: 185 },
+  { day: "Day 70", swaps: 193 },
+  { day: "Day 80", swaps: 201 },
+  { day: "Day 90", swaps: 214 },
+];
