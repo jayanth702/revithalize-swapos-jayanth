@@ -99,9 +99,9 @@ function StationDetails() {
           batteriesResponse,
           transactionsResponse,
         ] = await Promise.all([
-          fetch("http://127.0.0.1:8000/api/stations"),
-          fetch("http://127.0.0.1:8000/api/batteries"),
-          fetch("http://127.0.0.1:8000/api/transactions"),
+          fetch("https://revithalize-swapos-jayanth.onrender.com/api/stations")
+fetch("https://revithalize-swapos-jayanth.onrender.com/api/batteries")
+fetch("https://revithalize-swapos-jayanth.onrender.com/api/transactions")
         ]);
 
         if (
