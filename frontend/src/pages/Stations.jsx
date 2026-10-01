@@ -56,7 +56,7 @@ function Stations() {
 
   // Connect to FastAPI backend
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/api/stations")
+    fetch("https://revithalize-swapos-jayanth.onrender.com/api/stations")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to fetch stations");
