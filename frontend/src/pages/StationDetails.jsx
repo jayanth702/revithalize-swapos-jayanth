@@ -100,8 +100,8 @@ function StationDetails() {
           transactionsResponse,
         ] = await Promise.all([
           fetch("https://revithalize-swapos-jayanth.onrender.com/api/stations")
-fetch("https://revithalize-swapos-jayanth.onrender.com/api/batteries")
-fetch("https://revithalize-swapos-jayanth.onrender.com/api/transactions")
+fetch("https://revithalize-swapos-jayanth.onrender.com/api/batteries"),
+fetch("https://revithalize-swapos-jayanth.onrender.com/api/transactions"),
         ]);
 
         if (
